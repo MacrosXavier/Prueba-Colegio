@@ -4,7 +4,7 @@ Public Class conexion
     Protected cnn As New SqlConnection
 
     Public idusuario As Integer
-
+    'Cambio en la nueva rama
     Protected Function conectado()
         Try
             cnn = New SqlConnection("data source=(local);initial catalog=dbventas;integrated security=true")
